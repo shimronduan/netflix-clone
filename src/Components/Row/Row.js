@@ -63,6 +63,8 @@ const Row = (props) => {
                 onClick={() => clickHandler(movie)}
               />
             );
+          } else {
+            return null;
           }
         })}
       </div>
